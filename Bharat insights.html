@@ -61,5 +61,52 @@ ncial-services">Check Here</a>
 </div>
 </div>
 </div>
+<form id="survey-form" class="Contact">
+    <fieldset>
+      <label for="name" id="name-label"> Name
+        <input type="text" id="name" placeholder= "Enter your name" required>
+      </label>
+      <label for="email" id="email-label">Email
+        <input type="email" placeholder="Enter your email " id="email" required>
+      </label>
+      <label for="number" id="number-label"> Age(optional)
+        <input type="number" placeholder="Age" id="number" min="3" max="120" required>
+      </label>
+      <label for="dropdown">
+Which option describes your Financial Status?
+<select id="dropdown">
+<option value="">
+  Select Your annual income
+</option>
+<option value="1">
+  0 to 1,00,000
+</option>
+<option value="2">
+  1,00,000 to 2,00,000
+</option>
+<option value="3">
+  2,00,000 to 3,00,000
+  </option>
+  <option value="4">
+    Prefer not to say
+  </option>
+</select>
+      </label>
+      <label>Would you recommend this website?<label>
+      <label><input type="radio" name="friend" value="1" class="inline" checked>Definitly<label>
+        <label><input type="radio" value="2" name="friend" class="inline">Maybe<label>
+          <label><input type="radio" name="friend" value="3" class="inline">Not sure<label>
+
+            <label>
+              How can we help you?
+              <textarea name="comments" rows="3" cols="20">
+              </textarea>
+              </label>
+              <label>
+              <input type="submit" value="Submit" id="submit" />
+              </label>
+    </fieldset>
+    
+  </form>
 </body>
 </html>

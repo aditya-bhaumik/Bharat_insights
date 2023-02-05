@@ -118,3 +118,66 @@
     text-shadow: 5px 5px 5px #999;
     font-size: 16px;
     }
+    
+    form{
+        margin:0 auto;
+        max-width: 500px;
+        min-width:200px;
+        padding: 1em;
+        width: 60vw;
+        background-color:rgba(102, 59, 3, 0.5)
+        
+     }
+    
+    fieldset {
+        border: none;
+        padding: 4rem 0;
+        
+      }
+    
+    input,
+    textarea,
+    select{
+        margin:10px 0 0 0;
+        width:100%;
+        min-height: 2em;
+        background-color: #36454F;
+        color: #ffffff;
+    }
+    
+    input, textarea {
+        border: 1px solid #0a0a23;
+     }
+    label{
+        display:block;
+        margin:1em auto;
+    }
+    input[type="submit"] {
+        display: block;
+        width: 60%;
+        margin: 1em auto;
+        height: 2em;
+        font-size: 1.1rem;
+        background-color: #3b3b4f;
+        border-color: white;
+        min-width: 300px;
+      }
+    .inline{
+        width:unset;
+        vertical-align:middle;
+        margin: 0 0.5rem 0 0;
+      }
+    input, textarea {
+        border: 1px solid #0a0a23;
+      }
+    body{
+        background-image: url(https://upload.wikimedia.org/wikipedia/commons/d/d4/Lingarajpuram.JPG);
+        background-size: 130%;
+        color: #f2f6f5;
+        font-family: Tahoma;
+        font-size: 16px;
+        object-fit: 130%;
+        width: 100%;
+        height: 100vh;
+        margin: 0;
+    }
